@@ -374,7 +374,7 @@ function WatchedMovie({ movie, onDeleteWatched }) {
         </p>
         <p>
           <span>⏳</span>
-          <span>{movie.runtime} min</span>
+          <span>{+movie.runtime} min</span>
         </p>
 
         <button
